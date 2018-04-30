@@ -1,11 +1,12 @@
 import Link from 'next/link';
+import { Container } from 'semantic-ui-react';
 import withRoot from '../components/withRoot';
 
 const Other = () => (
-  <div>
+  <Container textAlign="center">
     <h1>Other</h1>
     <Link href="/"><a>Home</a></Link>
-  </div>
+  </Container>
 )
 
 export default withRoot(Other);
