@@ -9,4 +9,6 @@ const Other = () => (
   </Container>
 )
 
+Other.displayName = 'Other';
+
 export default withRoot(Other);
